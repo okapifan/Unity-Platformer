@@ -2,8 +2,10 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Cam
+    - DataManager
     - PauseMenu
     - PlayerMovement
+    - nameChange
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
@@ -13,6 +15,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.Shadow
     - UnityEngine.UI.Text
   sceneClasses:
@@ -54,15 +57,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9348}
     - Class: 114
+      Script: {instanceID: 9350}
+    - Class: 114
       Script: {instanceID: 9380}
     - Class: 114
       Script: {instanceID: 9384}
     - Class: 114
       Script: {instanceID: 9386}
     - Class: 114
-      Script: {instanceID: 10532}
+      Script: {instanceID: 9934}
     - Class: 114
-      Script: {instanceID: 15500}
+      Script: {instanceID: 10534}
+    - Class: 114
+      Script: {instanceID: 14674}
+    - Class: 114
+      Script: {instanceID: 18036}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -582,6 +591,12 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAnimator
   - hash:
       serializedVersion: 2
+      Hash: 6bbb80ec820e5f1a21f9325800da4fcc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PauseMenu
+  - hash:
+      serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -696,7 +711,7 @@ ScriptsOnlyBuild:
     className: TMP_ColorGradient
   - hash:
       serializedVersion: 2
-      Hash: b937029e2181aa8719dd89d3adefd18f
+      Hash: ffb489e34d89fb08400fd1ab30e9ba17
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerMovement
@@ -720,10 +735,16 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 86bd0f6adda0043f55a867bb9a2efbc3
+      Hash: 81bda350d5ff3f26e283ec6554974a2e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PauseMenu
+    className: nameChange
+  - hash:
+      serializedVersion: 2
+      Hash: e0a184c13d273406829787214ceb0792
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DataManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/Tests/Test.unity

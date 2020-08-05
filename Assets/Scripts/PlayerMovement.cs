@@ -15,15 +15,18 @@ public class PlayerMovement : MonoBehaviour
     public GameObject player;
     private bool is_on_ground;
     private GameObject sign;
+    public DataManager dataManager;
 
     void Start()
     {
+        dataManager.load();
+        player_name = dataManager.data.name;
         sr.color = body_color;
 
         GameObject sign = new GameObject("player_label");
         sign.transform.rotation = Camera.main.transform.rotation; // Causes the text faces camera.
         TextMesh tm = sign.AddComponent<TextMesh>();
-        tm.text = player_name;
+        tm.text = dataManager.data.name;
         tm.color = new Color(0.8f, 0.8f, 0.8f);
         tm.fontStyle = FontStyle.Bold;
         tm.alignment = TextAlignment.Center;
@@ -32,6 +35,7 @@ public class PlayerMovement : MonoBehaviour
         tm.fontSize = 60;
         sign.transform.SetParent(player.transform);
         sign.transform.position = player.transform.position + Vector3.up * 1f;
+
     }
 
     // Update is called once per frame
