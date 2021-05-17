@@ -26,8 +26,47 @@ TextureImporter:
   - first:
       213: 7906026920524713860
     second: home_decoration_7
+  - first:
+      213: -135872382672349897
+    second: home_decoration_0
+  - first:
+      213: -8774960930943824067
+    second: home_decoration_1
+  - first:
+      213: 8849185605211909097
+    second: home_decoration_2
+  - first:
+      213: -4254578179541046243
+    second: home_decoration_3
+  - first:
+      213: -1789383823739606803
+    second: home_decoration_4
+  - first:
+      213: -8106726017313704388
+    second: home_decoration_5
+  - first:
+      213: 7210193729989976529
+    second: home_decoration_6
+  - first:
+      213: -6685724715680195901
+    second: home_decoration_7
+  - first:
+      213: 8387231681959932173
+    second: home_decoration_8
+  - first:
+      213: 4300981294554011062
+    second: home_decoration_9
+  - first:
+      213: 4962904700061639240
+    second: home_decoration_8
+  - first:
+      213: 7412744224855362124
+    second: home_decoration_9
+  - first:
+      213: 7471096417527205508
+    second: home_decoration_10
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -81,8 +120,9 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -93,7 +133,8 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -104,6 +145,7 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -112,7 +154,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -122,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 240a2cbcf6cecd247a84a47ca87c9b19
-      internalID: 101814131534879594
+      spriteID: 7355700b9c84d1ef0800000000000000
+      internalID: -135872382672349897
       vertices: []
       indices: 
       edges: []
@@ -133,6 +175,48 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f89296683193680800000000000000
+      internalID: -8774960930943824067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: home_decoration_2
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebe7264c6f9eca70800000000000000
+      internalID: 8849185605211909097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: home_decoration_3
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 16
         width: 16
         height: 16
@@ -143,14 +227,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba9a2389261b89e43b3b09783fc89046
-      internalID: -2250559922812281130
+      spriteID: d1ce35bffa3b4f4c0800000000000000
+      internalID: -4254578179541046243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: home_decoration_2
+      name: home_decoration_4
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8ab2394e4da27e0800000000000000
+      internalID: -1789383823739606803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: home_decoration_5
       rect:
         serializedVersion: 2
         x: 32
@@ -164,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a9c87957425b794093f5f2628ba8378
-      internalID: -8964142514968865785
+      spriteID: c36799673af1f7f80800000000000000
+      internalID: -8106726017313704388
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: home_decoration_3
+      name: home_decoration_6
       rect:
         serializedVersion: 2
         x: 48
@@ -185,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e04ec227db7220409012ce2b26697ee
-      internalID: 8710786437896120806
+      spriteID: 1d12dc50ff0cf0460800000000000000
+      internalID: 7210193729989976529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: home_decoration_4
+      name: home_decoration_7
       rect:
         serializedVersion: 2
         x: 0
@@ -206,14 +311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 012a1adf281bfc248b2b1aae6023eb5c
-      internalID: -3624595517384796600
+      spriteID: 3ca15d72bc88733a0800000000000000
+      internalID: -6685724715680195901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: home_decoration_5
+      name: home_decoration_8
       rect:
         serializedVersion: 2
         x: 16
@@ -227,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4467a8fc970dea64cbda3093a7b20266
-      internalID: 1277553974596903266
+      spriteID: 8426a45b787cfd440800000000000000
+      internalID: 4962904700061639240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: home_decoration_6
+      name: home_decoration_9
       rect:
         serializedVersion: 2
         x: 32
@@ -248,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9abf476f508111345bf01fbeefdd76b5
-      internalID: -1532990758510071194
+      spriteID: c4a055d199b5fd660800000000000000
+      internalID: 7412744224855362124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: home_decoration_7
+      name: home_decoration_10
       rect:
         serializedVersion: 2
         x: 48
@@ -269,8 +374,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5b7b04944425e24386d39868b51c4b0
-      internalID: 7906026920524713860
+      spriteID: 48e0761bb9aaea760800000000000000
+      internalID: 7471096417527205508
       vertices: []
       indices: 
       edges: []
